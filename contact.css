@@ -1,0 +1,105 @@
+/* Global Styles */
+
+{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f7f7f7; 
+color: #333; 
+}
+
+/* Header Styles */
+
+header {
+background-color: #333; 
+color: #FFFFFF; 
+padding: 20px;
+text-align: center;
+}
+
+/* Contact Section Styles */
+
+.contact-section {
+padding: 50px;
+display: flex;
+justify-content: center;
+background-color: #FFFFFF; 
+}
+
+.contact-container {
+width: 50%;
+background-color: #f7f7f7; 
+padding: 20px;
+border: 1px solid #ddd;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+display: flex;
+flex-direction: column;
+}
+
+label {
+margin-bottom: 10px;
+color: #333; 
+}
+
+input, textarea {
+padding: 10px;
+margin-bottom: 20px;
+border: 1px solid #ccc;
+background-color: #f7f7f7; 
+}
+
+input:hover, textarea:hover {
+border: 1px solid #aaa;
+background-color: #fff; 
+}
+
+button[type="submit"] {
+background-color: #333; 
+color: #fff; 
+padding: 10px 20px;
+border: none;
+cursor: pointer;
+}
+
+button[type="submit"]:hover {
+background-color: #444; 
+}
+
+/* Footer Styles */
+
+footer {
+background-color: #333; 
+color: #fff; 
+padding: 10px;
+text-align: center;
+}
+
+/* Media Queries */
+
+@media (max-width: 480px) {
+.contact-container {
+width: 100%;
+}
+
+input, textarea {
+width: 100%;
+}
+}
+
+@media (max-width: 360px) {
+.contact-section {
+padding: 20px;
+}
+
+.contact-container {
+padding: 10px;
+}
+}
+
